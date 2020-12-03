@@ -1,0 +1,38 @@
+.title {
+  text-align: center;
+}
+.space {
+  text-align: center;
+}
+a:hover {
+  background-color: white;
+}
+nav {
+  display: block;
+  text-align: center;
+  background-color: #000000;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  border-collapse: collaps;
+}
+td,
+th {
+  border: solid 3px white;
+  border-radius: 3px;
+}
+td:hover,
+th:hover {
+  background-color: pink;
+}
+/*This spans over the whole thing make sure its id instead of class */
+#dj {
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: red;
+  padding: 15px;
+}
